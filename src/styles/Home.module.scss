@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .toppings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .buttons {
+    display: flex;
+    position: fixed;
+    bottom: 10%;
+    width: 70%;
+    justify-content: space-around;
+    button {
+      outline: #2c2c2c;
+      border: none;
+      background-color: rgba(0, 0, 0, 0.08);
+      padding: 1rem;
+      font-size: 1.5rem;
+      border-radius: 5rem;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+  }
+}
